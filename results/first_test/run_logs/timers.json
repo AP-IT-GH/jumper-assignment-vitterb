@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1653991714",
+        "python_version": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\ProgramData\\Anaconda3\\Scripts\\mlagents-learn config/jump_agent.yaml --run-id=first_test --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.2+cu111",
+        "numpy_version": "1.20.3",
+        "end_time_seconds": "1653991725"
+    },
+    "total": 10.690727,
+    "count": 1,
+    "self": 0.014663900000000396,
+    "children": {
+        "run_training.setup": {
+            "total": 0.5404871000000004,
+            "count": 1,
+            "self": 0.5404871000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 10.135576,
+            "count": 1,
+            "self": 0.00021809999999788943,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.135336800000001,
+                    "count": 1,
+                    "self": 10.135336800000001
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1100000001439412e-05,
+                    "count": 1,
+                    "self": 2.1100000001439412e-05
+                }
+            }
+        }
+    }
+}
