@@ -1,0 +1,38 @@
+{
+    "jumpAgent": {
+        "checkpoints": [
+            {
+                "steps": 499981,
+                "file_path": "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent\\jumpAgent-499981.onnx",
+                "reward": -1.0,
+                "creation_time": 1654009313.2319112,
+                "auxillary_file_paths": [
+                    "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent\\jumpAgent-499981.pt"
+                ]
+            },
+            {
+                "steps": 510047,
+                "file_path": "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent\\jumpAgent-510047.onnx",
+                "reward": -1.0,
+                "creation_time": 1654009411.2288551,
+                "auxillary_file_paths": [
+                    "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent\\jumpAgent-510047.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 510047,
+            "file_path": "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent.onnx",
+            "reward": -1.0,
+            "creation_time": 1654009411.2288551,
+            "auxillary_file_paths": [
+                "results\\geefdenaamdiejijwiltallemaalaaneengeschreven\\jumpAgent\\jumpAgent-510047.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
