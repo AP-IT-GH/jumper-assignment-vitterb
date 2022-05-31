@@ -6,6 +6,9 @@ TagManager:
   tags:
   - obstacle
   - field
+  - end
+  - reward
+  - top
   layers:
   - Default
   - TransparentFX
